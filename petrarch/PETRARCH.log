@@ -1,0 +1,22 @@
+INFO 2015-11-22 16:13:25,034: Running
+INFO 2015-11-22 16:13:25,034: Using default config file.
+INFO 2015-11-22 16:13:25,036: Reading CAMEO.verbpatterns.150430.txt
+INFO 2015-11-22 16:13:25,439: Reading /home/rajeev/petrarch-master/petrarch/data/dictionaries/Phoenix.Countries.actors.txt
+WARNING 2015-11-22 16:13:25,749: End date in interval date restriction is less than starting date; line skipped
+INFO 2015-11-22 16:13:26,589: Reading /home/rajeev/petrarch-master/petrarch/data/dictionaries/Phoenix.International.actors.txt
+WARNING 2015-11-22 16:13:26,589: End date in interval date restriction is less than starting date; line skipped
+INFO 2015-11-22 16:13:26,807: Reading /home/rajeev/petrarch-master/petrarch/data/dictionaries/Phoenix.MilNonState.actors.txt
+INFO 2015-11-22 16:13:26,844: Reading Phoenix.agents.txt
+
+WARNING 2015-11-22 16:13:26,905: Codes are required for agents in .agents file ; line skipped
+INFO 2015-11-22 16:13:26,915: Reading Phoenix.discards.txt
+INFO 2015-11-22 16:13:26,920: Reading Phoenix.IssueCoding.txt
+INFO 2015-11-22 16:13:26,992: 
+
+Processing WP20151115
+INFO 2015-11-22 16:13:26,992: 	Processing WP20151115_1
+INFO 2015-11-22 16:13:27,001: 
+
+Processing WSJ20151117
+INFO 2015-11-22 16:13:27,001: 	Processing WSJ20151117_1
+INFO 2015-11-22 16:13:27,012: 	Processing WSJ20151117_2

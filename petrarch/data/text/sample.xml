@@ -1,0 +1,49 @@
+<!-- # PETRARCH GigaWord sample file
+     # These are a very very tiny, as in "fair use" on the "research" clause of the copyright 
+# statutes sample of sentences from the LDC Gigaword corpus file AFP0808-02.txt that 
+# demonstrate some of the basic coding capabilities of PETRARCH. While these are actual 
+# sentences, this sample is intended as a "proof-of-concept" only and are not 
+# representative of the overall performance of the system, which is still in development 
+# mode and many pattern-matching features are not fully implemented.
+# 
+# For further information on the GigaWord corpus:  http://catalog.ldc.upenn.edu/LDC2011T07
+# Last update: 28 Feb 2014
+-->
+<Sentences>
+<Sentence date = "20151117" id ="WSJ20151117_1" source = "WSJ" sentence = "True">
+<Text>
+France carried out multiple airstrikes on Tuesday against Islamic State militants in Syria, as the county’s defense minister promised more waves of raids against the extremist group.
+</Text>
+<Parse>
+(ROOT (S (NP (NNP France)) (VP (VBD carried) (PRT (RP out)) (NP (JJ multiple) (NNS airstrikes)) (PP (IN on) (NP (NNP Tuesday))) (PP (IN against) (NP (NP (NNP Islamic) (NNP State) (NNS militants)) (PP (IN in) (NP (NNP Syria))))) (, ,) (SBAR (IN as) (S (NP (NP (DT the) (NN county) (POS 's)) (NN defense) (NN minister)) (VP (VBD promised) (NP (RBR more)) (NP (NP (NNS waves)) (PP (IN of) (NP (NP (NNS raids)) (PP (IN against) (NP (DT the) (NN extremist) (NN group)))))))))) (. .))) 
+</Parse>
+<Link>
+	http://www.wsj.com/articles/france-launches-further-airstrikes-against-isis-1447743907
+</Link>
+</Sentence>
+
+<Sentence date = "20151117" id ="WSJ20151117_2" source = "WSJ" sentence = "True">
+<Text>
+Russian war planes also struck Raqqa on Tuesday, with the Kremlin notifying the U.S. for the first time about the strikes ahead of time.
+</Text>
+<Parse>
+(ROOT (S (NP (JJ Russian) (NN war) (NNS planes)) (ADVP (RB also)) (VP (VBD struck) (NP (NP (NNP Raqqa)) (PP (IN on) (NP (NNP Tuesday)))) (, ,) (PP (IN with) (S (NP (DT the) (NNP Kremlin)) (VP (VBG notifying) (NP (DT the) (NNP U.S.)) (PP (IN for) (NP (NP (DT the) (JJ first) (NN time)) (PP (IN about) (NP (NP (DT the) (NNS strikes)) (PP (RB ahead) (IN of) (NP (NN time))))))))))) (. .))) 
+</Parse>
+<Link>
+	http://www.wsj.com/articles/france-launches-further-airstrikes-against-isis-1447743907
+</Link>
+</Sentence>
+
+<Sentence date = "20151115" id ="WP20151115_1" source = "WP" sentence = "True">
+<Text>
+France’s retaliation came as Obama held talks with allied leaders and with Russian President Vladi­mir Putin at the summit being held in this Turkish Mediterranean resort city.
+</Text>
+<Parse>
+(ROOT (S (NP (NP (NNP France) (POS 's)) (NN retaliation)) (VP (VBD came) (SBAR (IN as) (S (NP (NNP Obama)) (VP (VBD held) (NP (NNS talks)) (PP (PP (IN with) (NP (VBN allied) (NNS leaders))) (CC and) (PP (IN with) (NP (NP (JJ Russian) (NNP President) (NNP Vladimir) (NNP Putin)) (PP (IN at) (NP (NP (DT the) (NN summit)) (VP (VBG being) (VP (VBN held) (PP (IN in) (NP (DT this) (JJ Turkish) (JJ Mediterranean) (NN resort) (NN city)))))))))))))) (. .))) 
+</Parse>
+</Sentence>
+<Link>
+	https://www.washingtonpost.com/politics/obama-vows-to-help-france-hunt-down-perpetrators-of-paris-terror-attacks/2015/11/15/a4628faa-8b74-11e5-9a07-453018f9a0ec_story.html
+</Link>
+
+</Sentences>

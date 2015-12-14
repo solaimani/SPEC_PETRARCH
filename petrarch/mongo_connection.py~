@@ -1,0 +1,11 @@
+from pymongo import MongoClient
+from ../petrarch-master/petrarch import petrarch
+connection = MongoClient('localhost',27017)
+db = connection.gigaword.AFP
+results = db.find()
+for record in results:
+	print('Running PETRARCH')
+	petr_results = petrarch.run_pipeline(record, write_output=False, parsed=True)
+	print(petr_results)
+print
+connection.close()
