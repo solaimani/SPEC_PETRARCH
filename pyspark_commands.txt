@@ -1,0 +1,15 @@
+Start the pyspark shell with the needed jars and python files:
+
+./pyspark --master spark://dmlhdpc10:7077 --jars ~/mongo-hadoop-master/spark/build/libs/mongo-hadoop-spark-1.5.0-SNAPSHOT.jar --driver-class-path ~/mongo-hadoop-master/spark/build/libs/mongo-hadoop-spark-1.5.0-SNAPSHOT.jar --py-files ~/mongo-hadoop-master/spark/src/main/python/pymongo_spark.py,/home/rajeev/petrarch-master/petrarch/petrarch.py,/home/rajeev/petrarch-master/petrarch/PETRglobals.py,/home/rajeev/petrarch-master/petrarch/PETRreader.py,/home/rajeev/petrarch-master/petrarch/PETRwriter.py,/home/rajeev/petrarch-master/petrarch/Utilities.py --driver-memory 14g --executor-memory 14g
+
+Run the following commands in pyspark shell:
+
+dataFile = sc.textFile("hdfs://dmlhdpc10:9000/test_event")
+import petrarch
+petrarch.init_dictionary()
+
+def generate_event_from_doc(x):
+    events = petrarch.spark_encode_events(x)
+    return events
+
+dataFile.map(lambda x: generate_event_from_doc(x)).count()
